@@ -1,0 +1,68 @@
+﻿Build started 2016/6/24 12:39:54.
+     1>Project "C:\Users\YY\Desktop\数据库设计\D_M_S\D_M_S\D_M_S.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\mariadb\include\mysql /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\D_M_S.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\mariadb\include\mysql /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\D_M_S.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt add_domitory.cpp add_propety.cpp add_students.cpp come_late.cpp come_school.cpp D_M_S.cpp D_M_SDlg.cpp leave_school.cpp managers_in.cpp repaire_building.cpp repair_room.cpp students_in.cpp visit_brepair.cpp visit_drepair.cpp visit_late.cpp visit_leave.cpp
+         visit_leave.cpp
+     1>visit_leave.cpp(76): warning C4244: '=' : conversion from 'my_ulonglong' to 'int', possible loss of data
+     1>visit_leave.cpp(65): warning C4101: 'tag' : unreferenced local variable
+     1>visit_leave.cpp(159): warning C4244: 'initializing' : conversion from 'my_ulonglong' to 'int', possible loss of data
+         visit_late.cpp
+     1>visit_late.cpp(77): warning C4244: '=' : conversion from 'my_ulonglong' to 'int', possible loss of data
+     1>visit_late.cpp(66): warning C4101: 'tag' : unreferenced local variable
+     1>visit_late.cpp(166): warning C4244: 'initializing' : conversion from 'my_ulonglong' to 'int', possible loss of data
+         visit_drepair.cpp
+     1>visit_drepair.cpp(73): warning C4244: '=' : conversion from 'my_ulonglong' to 'int', possible loss of data
+     1>visit_drepair.cpp(62): warning C4101: 'tag' : unreferenced local variable
+         visit_brepair.cpp
+     1>visit_brepair.cpp(73): warning C4244: '=' : conversion from 'my_ulonglong' to 'int', possible loss of data
+     1>visit_brepair.cpp(62): warning C4101: 'tag' : unreferenced local variable
+         students_in.cpp
+         repair_room.cpp
+         repaire_building.cpp
+         managers_in.cpp
+         leave_school.cpp
+         D_M_SDlg.cpp
+         D_M_S.cpp
+         come_school.cpp
+         come_late.cpp
+         add_students.cpp
+     1>add_students.cpp(99): warning C4244: '=' : conversion from 'my_ulonglong' to 'int', possible loss of data
+     1>add_students.cpp(88): warning C4101: 'tag' : unreferenced local variable
+     1>add_students.cpp(329): warning C4244: 'initializing' : conversion from 'my_ulonglong' to 'int', possible loss of data
+         add_propety.cpp
+     1>add_propety.cpp(80): warning C4244: '=' : conversion from 'my_ulonglong' to 'int', possible loss of data
+     1>add_propety.cpp(69): warning C4101: 'tag' : unreferenced local variable
+         add_domitory.cpp
+     1>add_domitory.cpp(85): warning C4244: '=' : conversion from 'my_ulonglong' to 'int', possible loss of data
+     1>add_domitory.cpp(74): warning C4101: 'tag' : unreferenced local variable
+     1>add_domitory.cpp(312): warning C4244: 'initializing' : conversion from 'my_ulonglong' to 'int', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /Ix64\Debug\ /nologo /fo"x64\Debug\D_M_S.res" D_M_S.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\YY\Desktop\数据库设计\D_M_S\x64\Debug\D_M_S.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\mariadb\lib libmysql.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\YY\Desktop\数据库设计\D_M_S\x64\Debug\D_M_S.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\YY\Desktop\数据库设计\D_M_S\x64\Debug\D_M_S.lib" /MACHINE:X64 x64\Debug\D_M_S.res
+         x64\Debug\add_domitory.obj
+         x64\Debug\add_propety.obj
+         x64\Debug\add_students.obj
+         x64\Debug\come_late.obj
+         x64\Debug\come_school.obj
+         x64\Debug\D_M_S.obj
+         x64\Debug\D_M_SDlg.obj
+         x64\Debug\leave_school.obj
+         x64\Debug\managers_in.obj
+         x64\Debug\repaire_building.obj
+         x64\Debug\repair_room.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\students_in.obj
+         x64\Debug\visit_brepair.obj
+         x64\Debug\visit_drepair.obj
+         x64\Debug\visit_late.obj
+         x64\Debug\visit_leave.obj
+         D_M_S.vcxproj -> C:\Users\YY\Desktop\数据库设计\D_M_S\x64\Debug\D_M_S.exe
+     1>Done Building Project "C:\Users\YY\Desktop\数据库设计\D_M_S\D_M_S\D_M_S.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:55.27
